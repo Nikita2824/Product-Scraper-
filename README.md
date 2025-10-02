@@ -1,7 +1,7 @@
 # 🛍️ Product Scraper 
 
 A full-stack web application that **scrapes product details** from e-commerce websites and saves them into a database.
-Users can **add product URLs, search saved products, view details, refresh outdated data**, and switch between **light/dark mode**.
+Users can **add product URLs, search saved products, view details, refresh outdated data**.
 
 ---
 
