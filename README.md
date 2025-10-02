@@ -1,43 +1,43 @@
-# 🛍️ Product Scraper 
+ Product Scraper 
 
-A full-stack web application that **scrapes product details** from e-commerce websites and saves them into a database.
-Users can **add product URLs, search saved products, view details, refresh outdated data**.
-
----
-
-## 🚀 Features
-
-* ✅ Scrape product details (title, description, price, category, contact if available)
-* ✅ Data stored in SQLite using Flask + SQLAlchemy
-* ✅ Search products by title, description, or category
-* ✅ Refetch (refresh) products if outdated
-* ✅ Responsive UI built with React 
-* ✅ Toast notifications for success & errors
+A full-stack web application that scrapes product details from e-commerce websites and saves them into a database.
+Users can add product URLs, search saved products, view details, refresh outdated data.
 
 ---
 
-## 🛠️ Tech Stack
+ Features
 
-**Frontend**
-
-* React (Create React App)
-* React Icons
-* React Hot Toast
-
-**Backend**
-
-* Flask (Python)
-* Flask-CORS
-* Flask-SQLAlchemy
-* BeautifulSoup4 + Requests
-
-**Database**
-
-* SQLite (auto-created)
+Scrape product details (title, description, price, category, contact if available)
+Data stored in SQLite using Flask + SQLAlchemy
+Search products by title, description, or category
+Refetch (refresh) products if outdated
+Responsive UI built with React 
+Toast notifications for success & errors
 
 ---
 
-## 📂 Project Structure
+Tech Stack
+
+Frontend
+
+React (Create React App)
+React Icons
+React Hot Toast
+
+Backend
+
+Flask (Python)
+Flask-CORS
+Flask-SQLAlchemy
+BeautifulSoup4 + Requests
+
+Database
+
+SQLite (auto-created)
+
+---
+
+Project Structure
 
 ```
 product-scraper/
@@ -58,9 +58,9 @@ product-scraper/
 
 ---
 
-## ⚡ Setup & Installation
+ Setup & Installation
 
-### 1️⃣ Clone the Repository
+  1)Clone the Repository
 
 ```bash
 git clone  https://github.com/Nikita2824/Product-Scraper-.git
@@ -69,7 +69,7 @@ cd product-scraper
 
 ---
 
-### 2️⃣ Backend Setup (Flask)
+2)Backend Setup (Flask)
 
 ```bash
 cd backend
@@ -89,7 +89,7 @@ Test endpoint: [http://127.0.0.1:5000/api/health](http://127.0.0.1:5000/api/heal
 
 ---
 
-### 3️⃣ Frontend Setup (React)
+3)Frontend Setup (React)
 
 ```bash
 cd ../frontend
@@ -103,30 +103,30 @@ Frontend runs at → `http://localhost:3000`
 
 ---
 
-## 🔑 API Endpoints
+ API Endpoints
 
-* `POST /api/scrape` → Scrape a new product (requires JSON `{ "url": "..." }`)
-* `GET /api/products` → Get all products (supports `?q=searchTerm`)
-* `GET /api/products/<id>` → Get single product
-* `POST /api/refetch/<id>` → Refresh a product by ID
-* `GET /api/health` → Health check
+`POST /api/scrape` → Scrape a new product (requires JSON `{ "url": "..." }`)
+`GET /api/products` → Get all products (supports `?q=searchTerm`)
+`GET /api/products/<id>` → Get single product
+`POST /api/refetch/<id>` → Refresh a product by ID
+`GET /api/health` → Health check
 
 ---
 
 
-## 📝 Notes
+ Notes
 
-* This project is for **learning/demo purposes**.
+* This project is for learning/demo purposes.
 * Many e-commerce sites block scraping — success depends on site structure.
 * Use responsibly and respect websites’ Terms of Service.
 
 ---
 
-## 👩‍💻 Author
+ Author
 
 Developed by Nikita Narole
 
-* GitHub: [@Nikita2824](https://github.com/Nikita2824)
+GitHub: [@Nikita2824](https://github.com/Nikita2824)
 
 
 ---
