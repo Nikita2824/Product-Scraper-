@@ -127,6 +127,6 @@ Frontend runs at → `http://localhost:3000`
 Developed by Nikita Narole
 
 * GitHub: [@Nikita2824](https://github.com/Nikita2824)
-* LinkedIn: [Your Profile](https://linkedin.com/in/YOUR-PROFILE)
+
 
 ---
